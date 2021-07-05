@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE7BC"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn_baste"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_baste"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_charge"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_baste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="بسته اینترنت"
+        android:textColor="#014D8A"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/btn_baste"
+        app:layout_constraintRight_toRightOf="@id/btn_baste"
+        app:layout_constraintTop_toBottomOf="@id/btn_baste" />
+
+    <ImageButton
+        android:id="@+id/btn_charge"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_charge"
+        app:layout_constraintBottom_toBottomOf="@id/btn_baste"
+        app:layout_constraintLeft_toRightOf="@id/btn_baste"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_baste" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="شارژ سیمکارت"
+        android:textColor="#6E0428"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/btn_charge"
+        app:layout_constraintRight_toRightOf="@id/btn_charge"
+        app:layout_constraintTop_toBottomOf="@id/btn_charge" />
+
+    <ImageButton
+        android:id="@+id/btn_software"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_software"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_charge"
+        app:layout_constraintTop_toBottomOf="@id/tv_baste" />
+
+    <TextView
+        android:id="@+id/tv_sofware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="نرم افزار ها"
+        android:textColor="#005C04"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/btn_software"
+        app:layout_constraintRight_toRightOf="@id/btn_software"
+        app:layout_constraintTop_toBottomOf="@id/btn_software" />
+
+    <ImageButton
+        android:id="@+id/btn_khalafi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_khalafi"
+        app:layout_constraintBottom_toBottomOf="@id/btn_software"
+        app:layout_constraintLeft_toRightOf="@id/btn_software"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_software" />
+
+    <TextView
+        android:id="@+id/tv_khalafi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="خلافی خودرو"
+        android:textColor="#03136C"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/btn_khalafi"
+        app:layout_constraintRight_toRightOf="@id/btn_khalafi"
+        app:layout_constraintTop_toBottomOf="@id/btn_khalafi" />
+
+    <ImageButton
+        android:id="@+id/btn_support"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_support"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_khalafi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="تماس با پشتیبانی"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/btn_support"
+        app:layout_constraintRight_toRightOf="@id/btn_support"
+        app:layout_constraintTop_toBottomOf="@id/btn_support" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
